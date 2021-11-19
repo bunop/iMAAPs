@@ -1,0 +1,11 @@
+Package: iMAAPsmry
+Title: Summary the output of the software iMAAPs
+Version: 0.1
+Date: 2016-6-14
+Author: Ying Zhou
+Description: Function for summary the output of iMAAPs
+Maintainer: Ying Zhou <zhouying@picb.ac.cn>
+Dependencies:
+License: GPL2.0
+NeedsCompilation: no
+Packaged: 2016-09-16 12:42:59 UTC; zhouying
