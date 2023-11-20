@@ -23,7 +23,7 @@ bool file_check( const std::string & path )
  */
 {
 	std::ifstream fp(path.c_str());
-	return fp;
+	return fp.is_open();
 }
 
 bool file_open( const std::string & path )
@@ -32,7 +32,7 @@ bool file_open( const std::string & path )
  */
 {
 	std::ofstream fp(path.c_str());
-	return fp;
+	return fp.is_open();
 }
 
 double timer::gettime()
