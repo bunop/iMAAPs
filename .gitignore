@@ -33,3 +33,8 @@
 
 # Compiled software
 iMAAPs
+
+# iMAAPs output files in example directory
+example2/*.ad
+example2/*.log
+example2/*.rawld
