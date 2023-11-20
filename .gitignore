@@ -31,8 +31,8 @@
 *.out
 *.app
 
-# Compiled software
-iMAAPs
+# Compiled software in code directory
+code/iMAAPs
 
 # iMAAPs output files in example directory
 example2/*.ad
