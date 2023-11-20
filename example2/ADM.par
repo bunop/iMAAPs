@@ -1,0 +1,11 @@
+Inputfilelist:   ADM.list
+Indfile:      ADM.ind
+Admpop:     ADM
+Refpops:      POP1;POP2
+Timefile:	ADM.time
+Jackknife: on
+Mindis: 0.0002
+Maxdis: 0.5
+Binsize: 0.0002
+Iter: 5000
+Num_threads: 11

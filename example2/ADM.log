@@ -1,0 +1,69 @@
+------------------------------------------------------------------------------------
+
+Input files:
+    Input list:      ADM.list
+                     	
+                     ADM.geno.1	ADM.snp.1
+                     ADM.geno.2	ADM.snp.2
+                     ADM.geno.3	ADM.snp.3
+                     ADM.geno.4	ADM.snp.4
+                     ADM.geno.5	ADM.snp.5
+                     ADM.geno.6	ADM.snp.6
+                     ADM.geno.7	ADM.snp.7
+                     ADM.geno.8	ADM.snp.8
+                     ADM.geno.9	ADM.snp.9
+                     ADM.geno.10	ADM.snp.10
+    Individual file: ADM.ind
+    Generation file: ADM.time
+
+Output files:
+    WLD file:        ./ADM.rawld
+    Admixed file:    ./ADM.ad
+
+Reference populations:
+    1.POP1
+    2.POP2
+
+Admixed populations:
+    1.ADM
+
+WLD parameters:
+    Minimum distance:0.0002
+    Maximum distance:0.01
+    Bin size:        0.0002
+
+Fitting parameters:
+    Burn in:         5000
+    C threshold:     1.0202
+
+Jackknife:  on
+
+Mode:       Combined LD Model
+
+
+Start to calculate the WLD.
+
+Chromosome:	6	3	8	2	7	5	4	10	1	9	
+WLD calculation done!
+
+Admixed proportion
+POP1:POP2=0.32703:0.67297
+Start to fit the curve.
+
+Whole genome fitting done!
+Chromosome 8 done!
+Chromosome 10 done!
+Chromosome 2 done!
+Chromosome 1 done!
+Chromosome 7 done!
+Chromosome 6 done!
+Chromosome 5 done!
+Chromosome 9 done!
+Chromosome 4 done!
+Chromosome 3 done!
+Fitting done!
+
+WLD file: ./ADM.rawld
+Admixed file: ./ADM.ad
+
+Total running time is 1.25777 s.
